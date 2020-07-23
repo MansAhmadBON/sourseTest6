@@ -1,0 +1,11 @@
+.btn {
+    @include btn(#000)
+}
+
+.btn--remove {
+    @include btn(red)
+}
+
+.btn-add {
+    @include btn(#fff)
+}

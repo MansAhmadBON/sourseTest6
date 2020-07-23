@@ -1,0 +1,45 @@
+@import "./normalize";
+@import "./vars";
+@import "./mixin";
+@import "./header";
+@import "./listEmployeesList";
+@import "./btn";
+
+h1 {
+    text-align: center;
+    font-family: $font-fam;
+    font-size: $title-size;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+main {
+    padding-top: 3.6em;
+}
+
+footer {
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #358b5f;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    color: #fff;
+    font-family: $font-fam;
+}
+
+input {
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+}

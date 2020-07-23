@@ -1,0 +1,3 @@
+export const ADD_NEW_WORKER = 'ADD_NEW_WORKER';
+export const ADD_WORKERS = 'ADD_WORKERS';
+export const DELETED_WORKER = 'DELETED_WORKER';
