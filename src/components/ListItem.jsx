@@ -3,9 +3,8 @@ import {connect} from 'react-redux';
 import {deletedWorkerAC} from '../redux/actions';
 
 const ListItem = ({itemText, id, deletedWorker}) => {
-    const handleClick = (e) => {
-        deletedWorker(Number(e.target.id))
-    };
+
+    const handleClick = (e) => deletedWorker(Number(e.target.id));
 
     return (
         <li className="list__item">

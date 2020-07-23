@@ -3,9 +3,6 @@ import {ADD_NEW_WORKER, ADD_WORKERS, DELETED_WORKER} from '../../constants';
 const initialState = [];
 
 const workersReducer = (state = initialState, {type, payload}) => {
-    console.log('type', type);
-    console.log('payload', payload);
-
     switch (type) {
         case ADD_NEW_WORKER:
             return [payload, ...state];
